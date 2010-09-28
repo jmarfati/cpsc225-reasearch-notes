@@ -1,0 +1,50 @@
+Jugal Marfatia
+CPSC 225
+Research Notes:-
+
+
+Web Clients: A web client is software that accesses a web server by sending HTTP request message and processing the result http response. They can be browsers running on laptop, cell phones, I-Pad. 
+
+Basic Browser Functions:-
+
+Task a browser has to perform when a user types a HTTP-scheme URL.
+	
+1. Reformat the URL entered as a valid HTTP request message.
+2. If the server is specified using a host name (rather than an IP address), use DNS to convert this name to the appropriate IP address.
+3. Establish a TCP connection using the IP address of the specified web browser.
+4. Send the HTTP request over the TCP connection and wait for the server’s response.
+5. Display the document contained in the response. If the document is not a plain-text document but instead is written in a language such as HTML, this involves rendering   the document; positioning text and graphics within the browser window, creating table borders, using appropriate fonts and colors etc.
+
+URL (Uniform Resource Locator): Every URL consists of some of the following: the scheme name (commonly called protocol), followed by a colon, then, depending on scheme, a hostname (alternatively, IP address), a port number, the path of the resource to be fetched or the program to be run, then, for programs such as Common Gateway Interface (CGI) scripts, a query string and with HTML documents, an anchor (optional) for where the page should start to be displayed. 
+
+User-controllable features:
+1. Save.
+2. Find in page.
+3. Automatic form filling.
+4. Preferences.
+5. Style definition.
+6. Document meta-information.
+7. Themes.
+8. History.
+9. Bookmarks.
+
+
+Additional functionality:
+1. Automatic URL completion.
+2. Script execution.
+3. Event execution.
+4. Management of form GUI.
+5. Secure communication.
+6. Plug-in execution.
+
+Web server: A web server is a computer program that delivers (serves) content, such as web pages, using the Hypertext Transfer Protocol (HTTP), over the World Wide Web. The term web server can also refer to the computer or virtual machine running the program.
+
+Server features: The primary feature of every web server is to accept HTTP requests from web clients and return an appropriate resource in the HTTP response.
+
+Tomcat: Tomcat is a popular, free, and open-source servlet container developed by the Apache Software Foundation (ASF). Tomcat implements the Java Servlet and  the Java Server Pages (JSP) specifications from Sun Microsystems, and provides a "pure Java" HTTP web server environment for Java code to run. 
+
+Tomcat corresponds into two Java packages Coyote and Catalina. Coyote is Tomcat's HTTP Connector component that supports the HTTP 1.1 protocol for the web server or application container. Catalina is Tomcat's servlet container. Catalina implements Sun Microsystems' specifications for servlet and JavaServer Pages (JSP). The architect for Catalina was Craig McClanahan.
+
+Defining Virtual Hosts: Virtual hosting is a method for hosting multiple domain names on a computer using a single IP address. This allows one machine to share its resources, such as memory and processor cycles, to use its resources more efficiently.
+The virtual host name should normally be a fully qualified domain name that would be used by visitors to your web site, although the Host supplied as part of the JWSDP service is given the unqualified name localhost.
+
